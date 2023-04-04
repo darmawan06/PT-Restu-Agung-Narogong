@@ -1,0 +1,21 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@layer base {
+}
+
+@layer components {
+
+}
+
+.font-primary{
+	font-family: 'Sansita', sans-serif;
+}
+
+.font-secondary{
+	font-family: 'Open Sans', sans-serif;
+}
+
+video::-webkit-media-controls {
+  display:none !important;
+}
