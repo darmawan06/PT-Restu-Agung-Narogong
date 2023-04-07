@@ -23,83 +23,86 @@ const layanan_kami = {
 		        <p class="my-auto text-sm">Layanan Kami</p>
 		      </a>
 		    </section>
-			<section class="flex flex-col px-[8%]">
-				<div class="md:grid md:grid-cols-4 md:gap-4 grid grid-cols-1 gap-4 w-full flex md:ml-28 flex-col mt-12">
-					<div class="md:w-[18vw] md:mr-8">
-					<img src="images/proyek (1).jpg" width="360" height="240" alt="" />
-					<div class="p-4">
-						<p class="my-4 font-semibold text-xl">Design Build</p>
-						<p class="mb-4">
-						We aim to eliminate the task of dividing your project between different architecture and construction company. We are a company that offers design and build services for you from initial sketches to the final construction.
-						</p>
-						<a href="#" class="font-semibold hover:underline">READ MORE</a>
-					</div>
-					</div>
-
-					<div class="md:w-[18vw] md:mr-8">
-					<img src="images/proyek (1).jpg" width="360" height="240" alt="" />
-					<div class="p-4">
-						<p class="my-4 font-semibold text-xl">Design Build</p>
-						<p class="mb-4 text-gray-500">
-						We aim to eliminate the task of dividing your project between different architecture and construction company. We are a company that offers design and build services for you from initial sketches to the final construction.
-						</p>
-						<a href="#" class="font-semibold hover:underline">READ MORE</a>
-					</div>
+			<section class="flex flex-col md:px-[8%]">
+				<div class="lg:grid lg:grid-cols-4 lg:gap-4 md:grid md:grid-cols-2 md:gap-4 grid grid-cols-1 gap-4 w-full flex m-auto flex-col my-12">
+					<div class="lg:w-[18vw] w-full bg-gray-200 md:mr-0 tracking-wide">
+						<img class="w-full h-[200px] object-cover" src="images/proyek (1).jpg" width="360" height="240" alt="" />
+						<div class="p-4 font-secondary ">
+							<p class="my-4 font-semibold font-primary text-xl">Lorem Ipsum</p>
+								<div class="paragraph_layanan_kami" data-maxlength="200">
+									<p class="mb-4 text-gray-500 truncate md:whitespace-normal lg:whitespace-normal md:overflow-hidden ">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+										Duis ornare dictum condimentum. Vestibulum ante ipsum primis in faucibus
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									</p>
+								</div>
+							<a href="#" class="font-semibold text-sm hover:underline">READ MORE</a>
+						</div>
 					</div>
 
-					<div class="md:w-[18vw] md:mr-8">
-					<img src="images/proyek (1).jpg" width="360" height="240" alt="" />
-					<div class="p-4">
-						<p class="my-4 font-semibold text-xl">Design Build</p>
-						<p class="mb-4 text-gray-500">
-						We aim to eliminate the task of dividing your project between different architecture and construction company. We are a company that offers design and build services for you from initial sketches to the final construction.
-						</p>
-						<a href="#" class="font-semibold hover:underline">READ MORE</a>
-					</div>
-					</div>
-
-					<div class="md:w-[18vw] md:mr-8">
-					<img src="images/proyek (1).jpg" width="360" height="240" alt="" />
-					<div class="p-4">
-						<p class="my-4 font-semibold text-xl">Design Build</p>
-						<p class="mb-4 text-gray-500">
-						We aim to eliminate the task of dividing your project between different architecture and construction company. We are a company that offers design and build services for you from initial sketches to the final construction.
-						</p>
-						<a href="#" class="font-semibold hover:underline">READ MORE</a>
-					</div>
+					<div class="lg:w-[18vw] w-full bg-gray-200 md:mr-0 tracking-wide">
+						<img class="w-full h-[200px] object-cover" src="images/proyek (1).jpg" width="360" height="240" alt="" />
+						<div class="p-4 font-secondary ">
+							<p class="my-4 font-semibold font-primary text-xl">Lorem Ipsum</p>
+								<div class="paragraph_layanan_kami" data-maxlength="200">
+									<p class="mb-4 text-gray-500 truncate md:whitespace-normal lg:whitespace-normal md:overflow-hidden ">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+										Duis ornare dictum condimentum. Vestibulum ante ipsum primis in faucibus
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									</p>
+								</div>
+							<a href="#" class="font-semibold text-sm hover:underline">READ MORE</a>
+						</div>
 					</div>
 
-					<div class="md:w-[18vw] md:mr-8">
-					<img src="images/proyek (1).jpg" width="360" height="240" alt="" />
-					<div class="p-4">
-						<p class="my-4 font-semibold text-xl">Design Build</p>
-						<p class="mb-4 text-gray-500">
-						We aim to eliminate the task of dividing your project between different architecture and construction company. We are a company that offers design and build services for you from initial sketches to the final construction.
-						</p>
-						<a href="#" class="font-semibold hover:underline">READ MORE</a>
-					</div>
-					</div>
-
-					<div class="md:w-[18vw] md:mr-8">
-					<img src="images/proyek (1).jpg" width="360" height="240" alt="" />
-					<div class="p-4">
-						<p class="my-4 font-semibold text-xl">Design Build</p>
-						<p class="mb-4 text-gray-500">
-						We aim to eliminate the task of dividing your project between different architecture and construction company. We are a company that offers design and build services for you from initial sketches to the final construction.
-						</p>
-						<a href="#" class="font-semibold hover:underline">READ MORE</a>
-					</div>
+					<div class="lg:w-[18vw] w-full bg-gray-200 md:mr-0 tracking-wide">
+						<img class="w-full h-[200px] object-cover" src="images/proyek (1).jpg" width="360" height="240" alt="" />
+						<div class="p-4 font-secondary ">
+							<p class="my-4 font-semibold font-primary text-xl">Lorem Ipsum</p>
+								<div class="paragraph_layanan_kami" data-maxlength="200">
+									<p class="mb-4 text-gray-500 truncate md:whitespace-normal lg:whitespace-normal md:overflow-hidden ">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+										Duis ornare dictum condimentum. Vestibulum ante ipsum primis in faucibus
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									</p>
+								</div>
+							<a href="#" class="font-semibold text-sm hover:underline">READ MORE</a>
+						</div>
 					</div>
 
-					<div class="md:w-[18vw] md:mr-8">
-					<img src="images/proyek (1).jpg" width="360" height="240" alt="" />
-					<div class="p-4">
-						<p class="my-4 font-semibold text-xl">Design Build</p>
-						<p class="mb-4 text-gray-500">
-						We aim to eliminate the task of dividing your project between different architecture and construction company. We are a company that offers design and build services for you from initial sketches to the final construction.
-						</p>
-						<a href="#" class="font-semibold hover:underline">READ MORE</a>
+					<div class="lg:w-[18vw] w-full bg-gray-200 md:mr-0 tracking-wide">
+						<img class="w-full h-[200px] object-cover" src="images/proyek (1).jpg" width="360" height="240" alt="" />
+						<div class="p-4 font-secondary ">
+							<p class="my-4 font-semibold font-primary text-xl">Lorem Ipsum</p>
+								<div class="paragraph_layanan_kami" data-maxlength="200">
+									<p class="mb-4 text-gray-500 truncate md:whitespace-normal lg:whitespace-normal md:overflow-hidden ">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+										Duis ornare dictum condimentum. Vestibulum ante ipsum primis in faucibus
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									</p>
+								</div>
+							<a href="#" class="font-semibold text-sm hover:underline">READ MORE</a>
+						</div>
 					</div>
+
+					<div class="lg:w-[18vw] w-full bg-gray-200 md:mr-0 tracking-wide">
+						<img class="w-full h-[200px] object-cover" src="images/proyek (1).jpg" width="360" height="240" alt="" />
+						<div class="p-4 font-secondary ">
+							<p class="my-4 font-semibold font-primary text-xl">Lorem Ipsum</p>
+								<div class="paragraph_layanan_kami" data-maxlength="200">
+									<p class="mb-4 text-gray-500 truncate md:whitespace-normal lg:whitespace-normal md:overflow-hidden ">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+										Duis ornare dictum condimentum. Vestibulum ante ipsum primis in faucibus
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									</p>
+								</div>
+							<a href="#" class="font-semibold text-sm hover:underline">READ MORE</a>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -107,6 +110,15 @@ const layanan_kami = {
   },
 
   afterRender() {
+    $(".paragraph_layanan_kami p").text(function (index, currentText) {
+      var maxLength = $(this).parent().attr("data-maxlength");
+      if (currentText.length >= maxLength) {
+        return currentText.substr(0, maxLength) + "...";
+      } else {
+        return currentText;
+      }
+    });
+
     return "";
   },
 };
