@@ -1,6 +1,6 @@
 const layanan_kami = {
-	init(){
-		return `
+  init() {
+    return `
 			<section class="w-full h-[300px] bg-gray-50 flex flex-col px-[8%]">
 		      <div class="w-full m-auto flex-col">
 		        <p class="text-[50px] font-primary text-white text-center tracking-wider text-black">Layanan Kami</p>
@@ -23,12 +23,92 @@ const layanan_kami = {
 		        <p class="my-auto text-sm">Layanan Kami</p>
 		      </a>
 		    </section>
-		`;
-	},
+			<section class="flex flex-col px-[8%]">
+				<div class="md:grid md:grid-cols-4 md:gap-4 grid grid-cols-1 gap-4 w-full flex md:ml-28 flex-col mt-12">
+					<div class="md:w-[18vw] md:mr-8">
+					<img src="images/proyek (1).jpg" width="360" height="240" alt="" />
+					<div class="p-4">
+						<p class="my-4 font-semibold text-xl">Design Build</p>
+						<p class="mb-4">
+						We aim to eliminate the task of dividing your project between different architecture and construction company. We are a company that offers design and build services for you from initial sketches to the final construction.
+						</p>
+						<a href="#" class="font-semibold hover:underline">READ MORE</a>
+					</div>
+					</div>
 
-	afterRender(){
-		return "";
-	}
-}
+					<div class="md:w-[18vw] md:mr-8">
+					<img src="images/proyek (1).jpg" width="360" height="240" alt="" />
+					<div class="p-4">
+						<p class="my-4 font-semibold text-xl">Design Build</p>
+						<p class="mb-4 text-gray-500">
+						We aim to eliminate the task of dividing your project between different architecture and construction company. We are a company that offers design and build services for you from initial sketches to the final construction.
+						</p>
+						<a href="#" class="font-semibold hover:underline">READ MORE</a>
+					</div>
+					</div>
+
+					<div class="md:w-[18vw] md:mr-8">
+					<img src="images/proyek (1).jpg" width="360" height="240" alt="" />
+					<div class="p-4">
+						<p class="my-4 font-semibold text-xl">Design Build</p>
+						<p class="mb-4 text-gray-500">
+						We aim to eliminate the task of dividing your project between different architecture and construction company. We are a company that offers design and build services for you from initial sketches to the final construction.
+						</p>
+						<a href="#" class="font-semibold hover:underline">READ MORE</a>
+					</div>
+					</div>
+
+					<div class="md:w-[18vw] md:mr-8">
+					<img src="images/proyek (1).jpg" width="360" height="240" alt="" />
+					<div class="p-4">
+						<p class="my-4 font-semibold text-xl">Design Build</p>
+						<p class="mb-4 text-gray-500">
+						We aim to eliminate the task of dividing your project between different architecture and construction company. We are a company that offers design and build services for you from initial sketches to the final construction.
+						</p>
+						<a href="#" class="font-semibold hover:underline">READ MORE</a>
+					</div>
+					</div>
+
+					<div class="md:w-[18vw] md:mr-8">
+					<img src="images/proyek (1).jpg" width="360" height="240" alt="" />
+					<div class="p-4">
+						<p class="my-4 font-semibold text-xl">Design Build</p>
+						<p class="mb-4 text-gray-500">
+						We aim to eliminate the task of dividing your project between different architecture and construction company. We are a company that offers design and build services for you from initial sketches to the final construction.
+						</p>
+						<a href="#" class="font-semibold hover:underline">READ MORE</a>
+					</div>
+					</div>
+
+					<div class="md:w-[18vw] md:mr-8">
+					<img src="images/proyek (1).jpg" width="360" height="240" alt="" />
+					<div class="p-4">
+						<p class="my-4 font-semibold text-xl">Design Build</p>
+						<p class="mb-4 text-gray-500">
+						We aim to eliminate the task of dividing your project between different architecture and construction company. We are a company that offers design and build services for you from initial sketches to the final construction.
+						</p>
+						<a href="#" class="font-semibold hover:underline">READ MORE</a>
+					</div>
+					</div>
+
+					<div class="md:w-[18vw] md:mr-8">
+					<img src="images/proyek (1).jpg" width="360" height="240" alt="" />
+					<div class="p-4">
+						<p class="my-4 font-semibold text-xl">Design Build</p>
+						<p class="mb-4 text-gray-500">
+						We aim to eliminate the task of dividing your project between different architecture and construction company. We are a company that offers design and build services for you from initial sketches to the final construction.
+						</p>
+						<a href="#" class="font-semibold hover:underline">READ MORE</a>
+					</div>
+					</div>
+				</div>
+			</section>
+		`;
+  },
+
+  afterRender() {
+    return "";
+  },
+};
 
 export default layanan_kami;
