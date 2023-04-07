@@ -50,7 +50,7 @@ const blog = {
                 painted before, it will cost you a lot of money. Painting your own house allows you to experiment with something new and will help you save thousands of dollars.
               </p>
               <br />
-              <a href="#" class="font-semibold">READ MORE</a>
+              <a href="#" class="font-semibold hover:underline">READ MORE</a>
             </div>
           </div>
 
@@ -78,7 +78,7 @@ const blog = {
                 painted before, it will cost you a lot of money. Painting your own house allows you to experiment with something new and will help you save thousands of dollars.
               </p>
               <br />
-              <a href="#" class="font-semibold">READ MORE</a>
+              <a href="#" class="font-semibold hover:underline">READ MORE</a>
             </div>
           </div>
 
@@ -106,7 +106,7 @@ const blog = {
                 painted before, it will cost you a lot of money. Painting your own house allows you to experiment with something new and will help you save thousands of dollars.
               </p>
               <br />
-              <a href="#" class="font-semibold">READ MORE</a>
+              <a href="#" class="font-semibold hover:underline">READ MORE</a>
             </div>
           </div>
         </div>
@@ -122,10 +122,10 @@ const blog = {
               <div class="border-2 absolute md:w-[2vw] w-[10vw] bottom-0 border-red-600"></div>
             </div>
             <ul class="list-disc ml-8">
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
             </ul>
           </div>
 
@@ -135,7 +135,7 @@ const blog = {
               <div class="border-2 absolute md:w-[2vw] w-[10vw] bottom-0 border-red-600"></div>
             </div>
             <ul class="list-disc ml-8">
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
             </ul>
           </div>
 
@@ -145,8 +145,8 @@ const blog = {
               <div class="border-2 absolute md:w-[2vw] w-[10vw] bottom-0 border-red-600"></div>
             </div>
             <ul class="list-disc ml-8">
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
             </ul>
           </div>
 
@@ -156,10 +156,10 @@ const blog = {
               <div class="border-2 absolute md:w-[2vw] w-[10vw] bottom-0 border-red-600"></div>
             </div>
             <ul class="list-disc ml-8">
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
             </ul>
           </div>
 
@@ -169,10 +169,10 @@ const blog = {
               <div class="border-2 absolute md:w-[2vw] w-[10vw] bottom-0 border-red-600"></div>
             </div>
             <ul class="list-disc ml-8">
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
             </ul>
           </div>
 
@@ -182,10 +182,10 @@ const blog = {
               <div class="border-2 absolute md:w-[2vw] w-[10vw] bottom-0 border-red-600"></div>
             </div>
             <ul class="list-disc ml-8">
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
-              <a href="#"><li class="underline-offset-auto hover:underline-offset-2">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">Hello world!</li></a>
             </ul>
           </div>
 
