@@ -1,35 +1,35 @@
 const footer = {
 	init(){
 		return `
-		<div class=" bg-black mt-4 grid grid-cols-3 py-8 px-[5%]">
+		<div class=" bg-black mt-4 grid md:grid-cols-3 grid-cols-1 py-8 px-[5%]">
 			<div class="flex flex-col">
 				<img src="images/logo.png" class="w-[30%] m-auto">
 			</div>
-			<div class="text-white flex">
+			<div class="text-white flex my-4 md:my-0">
 				<div class="w-full mx-2">
-					<p class="font-primary tracking-wider text-lg">Navigation</p>
+					<p class="font-primary tracking-wider md:text-lg text-[15px]">Navigation</p>
 					<div class="w-full h-[2px] relative my-2">
 						<div class="w-full h-full absolute bg-red-600"></div>
 						<div class="w-[20%] h-full absolute bg-gray-100"></div>
 					</div>
 					<ul class="grid grid-cols-2 list-disc ml-5">
-						<li class="font-secondary text-sm">Beranda</li>
-						<li class="font-secondary text-sm">Proyek</li>
-						<li class="font-secondary text-sm">Layanan Kami</li>
-						<li class="font-secondary text-sm">Karir</li>
-						<li class="font-secondary text-sm">Blog</li>
-						<li class="font-secondary text-sm">Tentang Kami</li>
+						<li class="font-secondary md:text-sm text-[10px]">Beranda</li>
+						<li class="font-secondary md:text-sm text-[10px]">Proyek</li>
+						<li class="font-secondary md:text-sm text-[10px]">Layanan Kami</li>
+						<li class="font-secondary md:text-sm text-[10px]">Karir</li>
+						<li class="font-secondary md:text-sm text-[10px]">Blog</li>
+						<li class="font-secondary md:text-sm text-[10px]">Tentang Kami</li>
 					</ul>
 				</div>
 			</div>
-			<div class="text-white flex">
+			<div class="text-white flex my-4 md:my-0">
 				<div class="w-full mx-2">
-					<p class="font-primary tracking-wider text-lg">Kontak Kami</p>
+					<p class="font-primary tracking-wider md:text-lg text-[15px]">Kontak Kami</p>
 					<div class="w-full h-[2px] relative my-2">
 						<div class="w-full h-full absolute bg-red-600"></div>
 						<div class="w-[20%] h-full absolute bg-gray-100"></div>
 					</div>
-					<ul class="text-white text-sm grid grid-cols-1 gap-2">
+					<ul class="text-white md:text-sm text-[10px] grid grid-cols-1 gap-2">
 						<li class="">restu_narogong@yahoo.co.id</li>
 						<li class="">021-823 2272</li>
 						<li class="">Jl. PPLI Kp. Walahir RT.08/04 Desa.Nambo, Kec. Klapanunggal, Kab. Bogor, Kode Pos.167102</li>
@@ -44,7 +44,7 @@ const footer = {
 			</div>
 		</div>
 		<div class="w-full h-[50px] bg-red-600 flex">
-			<p class="m-auto text-white font-secondary text-sm">
+			<p class="m-auto text-white font-secondary md:text-sm text-[10px]">
 				© Copyright, PT Restu Agung Narogong. All right reserved.
 			</p>
 		</div>

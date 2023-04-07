@@ -19,3 +19,35 @@
 video::-webkit-media-controls {
   display:none !important;
 }
+
+
+@keyframes menu-phone-animation{
+  0%{
+  	opacity: 0;
+  }
+
+  100%{
+  	opacity: 100%;
+  }
+}
+
+.menu-phone{
+	width: 100%;
+	height: 95vh;
+	display: none;
+}
+
+.menu-phone-animation{
+	display: flex !important;
+	animation: menu-phone-animation 1s forwards;
+}
+
+.menu-phone-animation-end{
+	display: flex !important;
+	animation: menu-phone-animation 1s forwards reverse;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
