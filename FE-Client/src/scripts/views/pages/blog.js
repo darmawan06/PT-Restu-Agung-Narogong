@@ -24,15 +24,15 @@ const blog = {
 		      </a>
 		    </section>
 			<section class="w-full flex flex-col px-[8%]">
-      <div class="md:flex md:flex-row flex flex-col mt-12">
-        <div class="md:w-[75%]">
+      <div class="lg:flex lg:flex-row flex flex-col mt-12">
+        <div class="lg:w-[75%]">
           <div class="md:p-12 p-4 bg-gray-50">
-            <img class="m-auto blur-sm" src="blog-image.jpg" alt="Blog Image" width="848" height="300" />
+            <img class="m-auto blur-sm" src="images/proyek (1).jpg" alt="Blog Image" width="848" height="300" />
             <div class="mt-8 text-gray-500">
               <time datetime="2023-10-12">October 12, 2023 &#124;</time>
               <span>By James &#124;</span>
               <span>
-                <a href="#">Construction</a>
+                <a href="#">Lorem</a>
                 •
                 <a href="#">General Information &#124; </a>
               </span>
@@ -40,27 +40,29 @@ const blog = {
                 <a href="#">0 Comment</a>
               </span>
             </div>
-            <div class="">
-              <h2 class="text-3xl font-bold mt-4">Tips And Tricks</h2>
+            <div class="paragraph_blog_content">
+              <h2 class="text-3xl font-bold mt-4 font-primary lg:text-3xl md:text-2xl text-xl">Lorem ipsum dolor</h2>
               <div class="border relative my-3 w-full">
                 <div class="border-2 absolute md:w-[2vw] w-[10vw] bottom-0 border-red-600"></div>
               </div>
-              <p class="text-gray-800">
-                If you are looking to shift to a new house or want to renovate your existing one, the first thing you will need to think about is the painting. While it may be tempting to hire a professional to do it if you have never
-                painted before, it will cost you a lot of money. Painting your own house allows you to experiment with something new and will help you save thousands of dollars.
+              <p class="text-gray-800 font-secondary md:text-base lg:text-base text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis mi pulvinar, 
+                vehicula tellus ac, efficitur neque. Interdum et malesuada
+                fames ac ante ipsum primis in faucibus. Maecenas bibendum eget tellus at maximus. 
+                Mauris vulputate porta turpis, vel fermentum felis euismod non. Praesent quis sodales augue. 
               </p>
               <br />
-              <a href="#" class="font-semibold hover:underline">READ MORE</a>
+              <a href="#" class="font-semibold hover:underline lg:text-base md:text-base text-sm text-gray-800">READ MORE</a>
             </div>
           </div>
 
           <div class="md:p-12 mt-8">
-            <img class="m-auto" src="blog-image.jpg" alt="Blog Image" width="848" height="300" />
+            <img class="m-auto" src="images/proyek (1).jpg" alt="Blog Image" width="848" height="300" />
             <div class="mt-8 text-gray-500">
               <time datetime="2023-10-12">October 12, 2023 &#124;</time>
               <span>By James &#124;</span>
               <span>
-                <a href="#">Construction</a>
+                <a href="#">Lorem</a>
                 •
                 <a href="#">General Information &#124; </a>
               </span>
@@ -68,27 +70,29 @@ const blog = {
                 <a href="#">0 Comment</a>
               </span>
             </div>
-            <div class="">
-              <h2 class="text-3xl font-bold mt-4">Tips And Tricks</h2>
+            <div class="paragraph_blog_content">
+              <h2 class="text-3xl font-bold mt-4 font-primary lg:text-3xl md:text-2xl text-xl">Lorem ipsum dolor</h2>
               <div class="border relative my-3 w-full">
                 <div class="border-2 absolute md:w-[2vw] w-[10vw] bottom-0 border-red-600"></div>
               </div>
-              <p class="text-gray-800">
-                If you are looking to shift to a new house or want to renovate your existing one, the first thing you will need to think about is the painting. While it may be tempting to hire a professional to do it if you have never
-                painted before, it will cost you a lot of money. Painting your own house allows you to experiment with something new and will help you save thousands of dollars.
+              <p class="text-gray-800 ">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis mi pulvinar, 
+                vehicula tellus ac, efficitur neque. Interdum et malesuada
+                fames ac ante ipsum primis in faucibus. Maecenas bibendum eget tellus at maximus. 
+                Mauris vulputate porta turpis, vel fermentum felis euismod non. Praesent quis sodales augue. 
               </p>
               <br />
-              <a href="#" class="font-semibold hover:underline">READ MORE</a>
+              <a href="#" class="font-semibold hover:underline lg:text-base md:text-base text-sm text-gray-800">READ MORE</a>
             </div>
           </div>
 
           <div class="md:p-12 mt-8">
-            <img class="m-auto" src="blog-image.jpg" alt="Blog Image" width="848" height="300" />
+            <img class="m-auto" src="images/proyek (1).jpg" alt="Blog Image" width="848" height="300" />
             <div class="mt-8 text-gray-500">
               <time datetime="2023-10-12">October 12, 2023 &#124;</time>
               <span>By James &#124;</span>
               <span>
-                <a href="#">Construction</a>
+                <a href="#">Lorem</a>
                 •
                 <a href="#">General Information &#124; </a>
               </span>
@@ -96,25 +100,27 @@ const blog = {
                 <a href="#">0 Comment</a>
               </span>
             </div>
-            <div class="">
-              <h2 class="text-3xl font-bold mt-4">Tips And Tricks</h2>
+            <div class="paragraph_blog_content tracking-wide">
+              <h2 class="text-3xl font-bold mt-4 font-primary lg:text-3xl md:text-2xl text-xl">Lorem ipsum dolor</h2>
               <div class="border relative my-3 w-full">
                 <div class="border-2 absolute md:w-[2vw] w-[10vw] bottom-0 border-red-600"></div>
               </div>
-              <p class="text-gray-800">
-                If you are looking to shift to a new house or want to renovate your existing one, the first thing you will need to think about is the painting. While it may be tempting to hire a professional to do it if you have never
-                painted before, it will cost you a lot of money. Painting your own house allows you to experiment with something new and will help you save thousands of dollars.
+              <p class="text-gray-800 font-secondary md:text-base lg:text-base text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis mi pulvinar, 
+                vehicula tellus ac, efficitur neque. Interdum et malesuada
+                fames ac ante ipsum primis in faucibus. Maecenas bibendum eget tellus at maximus. 
+                Mauris vulputate porta turpis, vel fermentum felis euismod non. Praesent quis sodales augue. 
               </p>
               <br />
-              <a href="#" class="font-semibold hover:underline">READ MORE</a>
+              <a href="#" class="font-semibold hover:underline lg:text-base md:text-base text-sm text-gray-800">READ MORE</a>
             </div>
           </div>
         </div>
 
-        <div class="md:w-[25%] md:ml-8">
+        <div class="lg:w-[25%] lg:ml-8">
           <form action="" class="relative">
-            <input type="search" id="default-search" class="block md:w-[15vw] w-full p-2 pl-3 text-sm text-gray-900 border border-gray-300" placeholder="Search ..." />
-            <button type="submit" class="text-white absolute right-0 md:w-[5vw] p-2 top-0 bg-red-600 h-full focus:ring-blue-300 font-medium">Search</button>
+            <input type="search" id="default-search" class="block lg:w-[15vw] w-full p-2 pl-3 text-sm text-gray-900 border border-gray-300" placeholder="Search ..." />
+            <button type="submit" class="text-white absolute right-0 lg:w-[5vw] p-2 top-0 bg-red-600 h-full focus:ring-blue-300 font-medium">Search</button>
           </form>
           <div class="mt-4">
             <p class="font-semibold">Recent Posts</p>
@@ -122,10 +128,10 @@ const blog = {
               <div class="border-2 absolute md:w-[2vw] w-[10vw] bottom-0 border-red-600"></div>
             </div>
             <ul class="list-disc ml-8">
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
             </ul>
           </div>
 
@@ -135,7 +141,7 @@ const blog = {
               <div class="border-2 absolute md:w-[2vw] w-[10vw] bottom-0 border-red-600"></div>
             </div>
             <ul class="list-disc ml-8">
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
             </ul>
           </div>
 
@@ -145,8 +151,8 @@ const blog = {
               <div class="border-2 absolute md:w-[2vw] w-[10vw] bottom-0 border-red-600"></div>
             </div>
             <ul class="list-disc ml-8">
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
             </ul>
           </div>
 
@@ -156,10 +162,10 @@ const blog = {
               <div class="border-2 absolute md:w-[2vw] w-[10vw] bottom-0 border-red-600"></div>
             </div>
             <ul class="list-disc ml-8">
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
             </ul>
           </div>
 
@@ -169,10 +175,10 @@ const blog = {
               <div class="border-2 absolute md:w-[2vw] w-[10vw] bottom-0 border-red-600"></div>
             </div>
             <ul class="list-disc ml-8">
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
             </ul>
           </div>
 
@@ -182,10 +188,10 @@ const blog = {
               <div class="border-2 absolute md:w-[2vw] w-[10vw] bottom-0 border-red-600"></div>
             </div>
             <ul class="list-disc ml-8">
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
-              <a href="#"><li class="hover:underline">Hello world!</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
+              <a href="#"><li class="hover:underline">lorem ipsum</li></a>
             </ul>
           </div>
 
@@ -194,14 +200,13 @@ const blog = {
             <div class="border relative my-3 w-full">
               <div class="border-2 absolute md:w-[2vw] w-[10vw] bottom-0 border-red-600"></div>
             </div>
-            <div class="flex flex-wrap">
-              <br />
-              <a href="#" class="bg-red-600 h-full text-white ml-2 p-1">Construction</a>
-              <a href="#" class="bg-red-600 h-full text-white ml-2 p-1">Construction</a>
-              <a href="#" class="bg-red-600 h-full text-white ml-2 p-1">Construction</a>
-              <a href="#" class="bg-red-600 h-full text-white ml-2 mt-2 p-1">Construction</a>
-              <a href="#" class="bg-red-600 h-full text-white ml-2 mt-2 p-1">Construction</a>
-              <a href="#" class="bg-red-600 h-full text-white ml-2 mt-2 p-1">Construction</a>
+            <div class="grid grid-cols-3 gap-2">
+                <a href="#" class="bg-red-600 w-full h-full text-white p-1">Lorem</a>
+                <a href="#" class="bg-red-600 w-full h-full text-white p-1">Lorem</a>
+                <a href="#" class="bg-red-600 w-full h-full text-white p-1">Lorem</a>
+                <a href="#" class="bg-red-600 w-full h-full text-white p-1">Lorem</a>
+                <a href="#" class="bg-red-600 w-full h-full text-white p-1">Lorem</a>
+                <a href="#" class="bg-red-600 w-full h-full text-white p-1">Lorem</a>
             </div>
           </div>
         </div>
@@ -211,6 +216,14 @@ const blog = {
   },
 
   afterRender() {
+    $(".paragraph_blog_content p").text(function (index, currentText) {
+      var maxLength = 300;
+      if (currentText.length >= maxLength) {
+        return currentText.substr(0, maxLength);
+      } else {
+        return currentText;
+      }
+    });
     return "";
   },
 };
