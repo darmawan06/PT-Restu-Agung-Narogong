@@ -1,14 +1,14 @@
 const header = {
 	init(){
 		return `
-			<ul class="w-full h-[100px] border border-2 px-[5%] py-[5px] grid-cols-7 items-stretch justify-center gap-2 bg-gray-50  md:grid hidden">
-				<li class="flex h-full"><a href="#" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-gray-500 hover:text-red-600">Beranda</a></li>
-				<li class="flex h-full"><a href="#/proyek" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-gray-500 hover:text-red-600">Proyek</a></li>
-				<li class="flex h-full"><a href="#/layanan_kami" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-gray-500 hover:text-red-600">Layanan Kami</a></li>
+			<ul class="w-full h-[100px] px-[5%] py-[5px] grid-cols-7 items-stretch justify-center gap-2 bg-black md:grid hidden ">
+				<li class="flex h-full"><a href="#" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-white ">Beranda</a></li>
+				<li class="flex h-full"><a href="#/proyek" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-white ">Proyek</a></li>
+				<li class="flex h-full"><a href="#/layanan_kami" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-white ">Layanan Kami</a></li>
 				<li class="flex h-full"><img src="images/logo.png" class=" h-[70px] mx-auto my-auto"></li>
-				<li class="flex h-full"><a href="#/tentang_kami" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-gray-500 hover:text-red-600">Tentang Kami</a></li>
-				<li class="flex h-full"><a href="#/karir" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-gray-500 hover:text-red-600">Karir</a></li>
-				<li class="flex h-full"><a href="#/blog" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-gray-500 hover:text-red-600">Blog</a></li>
+				<li class="flex h-full"><a href="#/tentang_kami" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-white ">Tentang Kami</a></li>
+				<li class="flex h-full"><a href="#/karir" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-white ">Karir</a></li>
+				<li class="flex h-full"><a href="#/blog" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-white ">Blog</a></li>
 			</ul>
 			<div class="flex md:hidden w-full h-[60px] shadow-md border-b border-gray-600 bg-white sticky">
 				<div class="w-2/4 h-full my-auto flex px-4">
