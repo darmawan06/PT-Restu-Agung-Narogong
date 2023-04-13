@@ -197,7 +197,7 @@ const layanan_kami = {
 					</div>
 				</div>
 
-				<div class="show_popup_layanan absolute top-6 lg:right-36 drop-shadow-xl bg-gray-100 lg:h-3/5 overflow-auto">
+				<div class="show_popup_layanan absolute lg:right-36 drop-shadow-xl bg-gray-100 z-[1000] min-h-screen">
 				<button class="close_popup absolute top-2 right-2 bg-red-600 text-white px-3 py-1 font-semibold">X</button>
 					<div class="lg:w-[80vw] md:w-[84vw] w-full text-justify ">
 						<div class="lg:flex lg:flex-col lg:m-24 lg:p-0 p-4 mt-8 md:p-8">
@@ -225,6 +225,52 @@ const layanan_kami = {
 									Duis ornare dictum condimentum. Vestibulum ante ipsum primis in faucibus
 
 								</p>
+								<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									Duis ornare dictum condimentum. Vestibulum ante ipsum primis in faucibus
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									Duis ornare dictum condimentum. Vestibulum ante ipsum primis in faucibus
+
+								</p>
+								<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									Duis ornare dictum condimentum. Vestibulum ante ipsum primis in faucibus
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									Duis ornare dictum condimentum. Vestibulum ante ipsum primis in faucibus
+
+								</p>
+								<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									Duis ornare dictum condimentum. Vestibulum ante ipsum primis in faucibus
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									Duis ornare dictum condimentum. Vestibulum ante ipsum primis in faucibus
+
+								</p>
+								<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									Duis ornare dictum condimentum. Vestibulum ante ipsum primis in faucibus
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									Duis ornare dictum condimentum. Vestibulum ante ipsum primis in faucibus
+
+								</p>
+								<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									Duis ornare dictum condimentum. Vestibulum ante ipsum primis in faucibus
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at quam ut purus pulvinar maximus. 
+									Duis ornare dictum condimentum. Vestibulum ante ipsum primis in faucibus
+
+								</p>
+
 							</div>
 						</div>
 					</div>
