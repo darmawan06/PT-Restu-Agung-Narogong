@@ -23,11 +23,11 @@ const beranda = {
 						<div class="grid grid-cols-3 w-full  gap-4 mt-4">
 							<div class="flex flex-col">
 								<label class="text-[15px]">Judul</label>
-								<input type="text" id="hero_title" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.hero.title}">
+								<input type="text" name="hero_title" id="hero_title" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.hero.title}">
 							</div>
 							<div class="flex flex-col col-span-3">
 								<label class="text-[15px]">Deskripsi</label>
-								<textarea type="text" id="hero_description" class="border border-gray-400 px-2 text-[15px] h-[100px]">${contentHome.hero.description}</textarea>
+								<textarea type="text" name="hero_description" id="hero_description" class="border border-gray-400 px-2 text-[15px] h-[100px]">${contentHome.hero.description}</textarea>
 							</div>
 							<div class="flex flex-col">
 								<label class="text-[15px]">Gambar 1</label>
@@ -51,29 +51,29 @@ const beranda = {
 						<div class="grid grid-cols-3 w-full  gap-4 mt-4">
 							<div class="flex flex-col">
 								<label class="text-[15px]">Pengalaman(tahun)</label>
-								<input type="text" id="aboutus_experience" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.about_us.experience}">
+								<input type="number" id="aboutus_experience" name="aboutus_experience" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.about_us.experience}">
 							</div>
 							<div class="flex flex-col">
 								<label class="text-[15px]">Proyek Selesai</label>
-								<input type="text" id="aboutus_project_complete" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.about_us.project_complete}">
+								<input type="number" id="aboutus_project_complete" name="aboutus_project_complete" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.about_us.project_complete}">
 							</div>
 							<div class="flex flex-col">
 								<label class="text-[15px]">Pekerja</label>
-								<input type="text" id="aboutus_workers" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.about_us.workers}">
+								<input type="number" id="aboutus_workers" name="aboutus_workers" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.about_us.workers}">
 							</div>
 
 							<div class="flex flex-col">
 								<label class="text-[15px]">Judul</label>
-								<input type="text" id="aboutus_title" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.about_us.title}">
+								<input type="text" id="aboutus_title" name="aboutus_title" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.about_us.title}">
 							</div>
 
 							<div class="flex flex-col">
 								<label class="text-[15px]">Sub Judul</label>
-								<input type="text" id="aboutus_subtitle" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.about_us.subtitle}">
+								<input type="text" id="aboutus_subtitle" name="aboutus_description" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.about_us.subtitle}">
 							</div>
 							<div class="flex flex-col col-span-3">
 								<label class="text-[15px]">Deskripsi</label>
-								<textarea type="text" id="aboutus_description" class="border border-gray-400 px-2 text-[15px] h-[100px]">${contentHome.about_us.description}</textarea>
+								<textarea type="text" id="aboutus_description" name="aboutus_description" class="border border-gray-400 px-2 text-[15px] h-[100px]">${contentHome.about_us.description}</textarea>
 							</div>
 							<div class="flex flex-col col-span-3">
 								<label class="text-[15px]">Penghargaan <i class="text-red-600">gunakan "," (koma) sebagai pemisah</i></label>
@@ -91,11 +91,11 @@ const beranda = {
 						<div class="grid grid-cols-3 w-full  gap-4 mt-4 ">
 							<div class="flex flex-col mt-auto">
 								<label class="text-[15px]">Judul</label>
-								<input type="text" id="advantedge_title" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_advantedge.title}">
+								<input type="text" id="advantedge_title" name="advantedge_title" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_advantedge.title}">
 							</div>
 							<div class="flex flex-col mt-auto col-span-2">
 								<label class="text-[15px]">Sub Judul</label>
-								<input type="text" id="advantedge_subtitle" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_advantedge.subtitle}">
+								<input type="text" id="advantedge_subtitle" name="advantedge_subtitle" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_advantedge.subtitle}">
 							</div>
 							<div class="flex flex-col mt-auto">
 								<label class="text-[15px]">Icon Item 1</label>
@@ -105,12 +105,12 @@ const beranda = {
 
 							<div class="flex flex-col mt-auto">
 								<label class="text-[15px]">Judul Item 1</label>
-								<input type="text" id="advantedge_item1_title" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_advantedge.items[0].title}">
+								<input type="text" id="advantedge_item1_title" name="advantedge_item1_title" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_advantedge.items[0].title}">
 							</div>
 	
 							<div class="flex flex-col mt-auto">
 								<label class="text-[15px]">Deskripsi Item 1</label>
-								<input type="text" id="advantedge_item1_description" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_advantedge.items[0].description}">
+								<input type="text" id="advantedge_item1_description" name="advantedge_item1_description" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_advantedge.items[0].description}">
 							</div>
 
 							<div class="flex flex-col mt-auto">
@@ -120,13 +120,13 @@ const beranda = {
 							</div>
 
 							<div class="flex flex-col mt-auto">
-								<label class="text-[15px]">Judul Item 2</label>
-								<input type="text" id="advantedge_item2_title" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_advantedge.items[1].title}">
+								<label class="text-[15px]">Judul Item 1</label>
+								<input type="text" id="advantedge_item2_title" name="advantedge_item2_title" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_advantedge.items[1].title}">
 							</div>
 	
 							<div class="flex flex-col mt-auto">
-								<label class="text-[15px]">Deskripsi Item 2</label>
-								<input type="text" id="advantedge_item2_description" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_advantedge.items[1].description}">
+								<label class="text-[15px]">Deskripsi Item 1</label>
+								<input type="text" id="advantedge_item2_description" name="advantedge_item2_description" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_advantedge.items[1].description}">
 							</div>
 
 							<div class="flex flex-col mt-auto">
@@ -136,13 +136,13 @@ const beranda = {
 							</div>
 
 							<div class="flex flex-col mt-auto">
-								<label class="text-[15px]">Judul Item 3</label>
-								<input type="text" id="advantedge_item3_title" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_advantedge.items[2].title}">
+								<label class="text-[15px]">Judul Item 1</label>
+								<input type="text" id="advantedge_item3_title" name="advantedge_item3_title" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_advantedge.items[2].title}">
 							</div>
 	
 							<div class="flex flex-col mt-auto">
-								<label class="text-[15px]">Deskripsi Item 3</label>
-								<input type="text" id="advantedge_item3_description" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_advantedge.items[2].description}">
+								<label class="text-[15px]">Deskripsi Item 1</label>
+								<input type="text" id="advantedge_item3_description" name="advantedge_item3_description" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_advantedge.items[2].description}">
 							</div>
 						</div>
 					</div>
@@ -151,11 +151,11 @@ const beranda = {
 						<div class="grid grid-cols-3 w-full  gap-4 mt-4">
 							<div class="flex flex-col">
 								<label class="text-[15px]">Judul</label>
-								<input type="text" id="ourproject_title" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_project.title}">
+								<input type="text" id="ourproject_title" name="ourproject_title" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_project.title}">
 							</div>
 							<div class="flex flex-col">
 								<label class="text-[15px]">Sub Judul</label>
-								<input type="text" id="ourproject_subtitle" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_project.subtitle}">
+								<input type="text" id="ourproject_subtitle" name="ourproject_subtitle" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.our_project.subtitle}">
 							</div>
 						</div>
 					</div> 
@@ -164,15 +164,15 @@ const beranda = {
 						<div class="grid grid-cols-3 w-full  gap-4 mt-4">
 							<div class="flex flex-col">
 								<label class="text-[15px]">Judul</label>
-								<input type="text" id="testimonial_title" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.testimonial.title}">
+								<input type="text" id="testimonial_title" name="testimonial_title" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.testimonial.title}">
 							</div>
 							<div class="flex flex-col">
 								<label class="text-[15px]">Sub Judul</label>
-								<input type="text" id="testimonial_subtitle" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.testimonial.subtitle}">
+								<input type="text" id="testimonial_subtitle" name="testimonial_subtitle" class="border border-gray-400 px-2 text-[15px]" value="${contentHome.testimonial.subtitle}">
 							</div>
 						</div>
 					</div> 
-					<input id="submit" type="submit" value="Update" class="w-full bg-green-600 p-2 text-white font-bold tracking-wider cursor-pointer " disable>
+					<input id="submit" type="submit" value="Update" class="w-full bg-green-600 p-2 text-white font-bold tracking-wider cursor-pointer ">
 				</form>
 			</section>
 		`;
@@ -185,9 +185,7 @@ const beranda = {
 		this.eventBtnContent('.btn-advantedge', '.advantedge')
 		this.eventBtnContent('.btn-project', '.project')
 		this.eventBtnContent('.btn-testimonial', '.testimonial')
-		// this.validateForm()
-		this.postData()
-		console.log(this.createData())
+		this.postData(this.validateForm())
 		return "";
 	},
 
@@ -199,47 +197,114 @@ const beranda = {
 	},
 
 	validateForm(){
-		$("#form").validate({
+		return $("#form").validate({
 		  rules: {
-		    alamat_1 : {
-		      required : true,
-		        maxlength: 84,
+		    hero_title : {
+		    	required : true,
+		        maxlength: 50,
 		    },
-		   alamat_2 : {
-		      required : true,
-		        maxlength: 84,
+		   	hero_description : {
+		   		required : true,
+		   		maxlength: 200,
 		    },
-		    telepon : {
-		      required : true,
-		        maxlength: 84,
+		    aboutus_experience : {
+		    	required : true,
+		   		maxlength: 3,
 		    },
-		    email : {
-		      required : true,
-		        maxlength: 84,
+			aboutus_project_complete : {
+		    	required : true,
+		   		maxlength: 4,
 		    },
+			aboutus_workers : {
+		    	required : true,
+		   		maxlength: 3,
+		    },
+			aboutus_title : {
+		    	required : true,
+		   		maxlength: 25,
+		    },
+			aboutus_subtitle : {
+		    	required : true,
+		   		maxlength: 60,
+		    },
+			aboutus_description : {
+		    	required : true,
+		   		maxlength: 200,
+		    },
+	    	advantedge_title : {
+	    		required : true,
+		   		maxlength: 25,
+	    	},
+			advantedge_subtitle : {
+				required : true,
+		   		maxlength: 60,
+			},
+			advantedge_item1_title : {
+				required : true,
+		   		maxlength: 25,
+			},
+			advantedge_item1_description : {
+				required : true,
+		   		maxlength: 130,
+			},
+			advantedge_item2_title : {
+				required : true,
+		   		maxlength: 25,
+			},
+			advantedge_item2_description : {
+				required : true,
+		   		maxlength: 130,
+			},
+			advantedge_item3_title : {
+				required : true,
+		   		maxlength: 25,
+			},
+			advantedge_item3_description : {
+				required : true,
+		   		maxlength: 130,
+			},
+			ourproject_title : {
+				required : true,
+			   	maxlength: 25,
+
+			},
+			ourproject_subtitle : {
+				required : true,
+		   		maxlength: 60,
+			},
+
+			testimonial_title : {
+				required : true,
+		   		maxlength: 25,
+			},
+			testimonial_subtitle : {
+				required : true,
+	   			maxlength: 60,
+			},
 		  }
 		});
 	},
-	postData(){
+	postData(validate){
 	    $('#form').submit(async (e)=>{
 	      e.preventDefault()
-	      
-	      $('#submit').prop('disabled', true);
-	      $('#submit').attr('value', 'Dalam Proses');
-	      await this.API.requestPOST({
-	        request : 'cms/content/home',
-	        data : this.createData()
-	      }).then((e)=>{
-	      	console.log(e);
-	        if(e.status == 200){
-		      $('#submit').attr('value', 'Selesai');
-	          $('#submit').prop('disabled', false);	      
-	          window.location.reload()
-	        }else{
-		      $('#submit').attr('value', 'Gagal');
-	        }
-			$('#submit').attr('value', 'Submit');
-	      })
+	      if(validate.valid()){
+		      $('#submit').prop('disabled', true);
+		      $('#submit').attr('value', 'Dalam Proses');
+		      await this.API.requestPOST({
+		        request : 'cms/content/home',
+		        data : this.createData()
+		      }).then((e)=>{
+		      	console.log(e);
+		        if(e.status == 200){
+			      $('#submit').attr('value', 'Selesai');
+		          $('#submit').prop('disabled', false);	      
+		          window.location.reload()
+		        }else{
+			      $('#submit').attr('value', 'Gagal');
+		        }
+				$('#submit').attr('value', 'Submit');
+		      })
+	      }
 	    })
   	},
 	createData(){
@@ -272,7 +337,7 @@ const beranda = {
 		formData.append("ouradvantedge_item3_description",$('#advantedge_item3_description').val())
 		
 		formData.append("ourproject_title",$('#ourproject_title').val())
-		formData.append("ourproject_subtitle",$('#ourproject_title').val())
+		formData.append("ourproject_subtitle",$('#ourproject_subtitle').val())
 
 		formData.append("testimonial_title",$('#testimonial_title').val())
 		formData.append("testimonial_subtitle",$('#testimonial_subtitle').val())
