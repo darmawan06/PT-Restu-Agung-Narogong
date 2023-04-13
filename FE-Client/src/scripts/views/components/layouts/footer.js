@@ -1,7 +1,7 @@
 const footer = {
 	init(){
 		return `
-		<div class=" bg-black mt-4 grid md:grid-cols-3 grid-cols-1 py-8 px-[5%]">
+		<div class=" bg-black grid md:grid-cols-3 grid-cols-1 py-8 px-[5%] h-auto md:h-[50vh] border-t-2 border-gray-900">
 			<div class="flex flex-col">
 				<img src="images/logo.png" class="w-[30%] m-auto">
 			</div>
@@ -12,7 +12,7 @@ const footer = {
 						<div class="w-full h-full absolute bg-red-600"></div>
 						<div class="w-[20%] h-full absolute bg-gray-100"></div>
 					</div>
-					<ul class="grid grid-cols-2 list-disc ml-5">
+					<ul class="grid grid-cols-2 list-disc ml-5 h-[50%] mt-4">
 						<li class="font-secondary md:text-sm text-[10px]">Beranda</li>
 						<li class="font-secondary md:text-sm text-[10px]">Proyek</li>
 						<li class="font-secondary md:text-sm text-[10px]">Layanan Kami</li>
@@ -29,7 +29,7 @@ const footer = {
 						<div class="w-full h-full absolute bg-red-600"></div>
 						<div class="w-[20%] h-full absolute bg-gray-100"></div>
 					</div>
-					<ul class="text-white md:text-sm text-[10px] grid grid-cols-1 gap-2">
+					<ul class="text-white md:text-sm text-[10px] grid grid-cols-1 gap-2 h-[80%] mt-4">
 						<li class="">restu_narogong@yahoo.co.id</li>
 						<li class="">021-823 2272</li>
 						<li class="">Jl. PPLI Kp. Walahir RT.08/04 Desa.Nambo, Kec. Klapanunggal, Kab. Bogor, Kode Pos.167102</li>

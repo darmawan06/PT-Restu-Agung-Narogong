@@ -1,0 +1,54 @@
+{
+	"home" : {
+		"hero" : {
+			"title" : "Create the building you want here",
+			"description" : "We provide the best architectural design, construction, and building maintenace services for you",
+			"image_1" : "/images/hero/hero-1.jpeg",
+			"image_2" : "/images/hero/hero-2.jpeg",
+			"image_3" : "/images/hero/hero-3.jpeg"
+		},
+		"about_us" : {
+			"experience" : 6,
+			"project_complete" : 100,
+			"workers" : 20,
+			"title" : "About Us",
+			"subtitle" : "We are a leader in the construction sector",
+			"description" : "We strive to provide the best profesionals to make your project a construction masterpiece, something unique and unrivaled.",
+			"award" : [
+				"Award Winning Project",
+				"Powerfull Product Strategy",
+				"Experts Team Member",
+				"Ready for your Services"
+			],
+			"image" : "/images/hero/hero-3.jpeg"
+		},
+		"our_advantedge" : {
+			"title" : "OUR ADVANTEDGE",
+			"subtitle" : "Providing The Best Services To Build Your Dream Factory",
+			"items" : [{
+				"icon" : "/images/hero/hero-3.jpeg",
+				"title" : "Profesional Workers",
+				"description" : "The best and expertly trained team members who take the extra step and go extra mile."
+			},{
+			"icon" : "/images/hero/hero-3.jpeg",
+				"title" : "Guaranteed Quality",
+				"description" : "The best and expertly trained team members who take the extra step and go extra mile."	
+			},{
+				"icon" : "/images/hero/hero-3.jpeg",
+				"title" : "Wide Experience",
+				"description" : "The best and expertly trained team members who take the extra step and go extra mile."
+			}]
+		},
+		"our_project" : {
+			"title" : "OUR PROJECT",
+			"subtitle" : "Feature Project"
+		},
+		"testimonial" : {
+			"title" : "TESTIMONIAL",
+			"subtitle" : "Excellent Company Quality Services"
+		}
+	},
+	"project" : {
+		"title" : "sadasd"
+	}
+}
