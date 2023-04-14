@@ -7,7 +7,7 @@ const header = {
 				<li class="flex h-full"><a href="#/layanan_kami" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-white ">Layanan Kami</a></li>
 				<li class="flex h-full"><img src="images/logo.png" class=" h-[70px] mx-auto my-auto"></li>
 				<li class="flex h-full"><a href="#/tentang_kami" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-white ">Tentang Kami</a></li>
-				<li class="flex h-full"><a href="#/karir" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-white ">Karir</a></li>
+				<li class="flex h-full"><a href="#/galeri" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-white ">Galeri</a></li>
 				<li class="flex h-full"><a href="#/blog" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-white ">Blog</a></li>
 			</ul>
 			<div class="flex md:hidden w-full h-[60px] shadow-md border-b border-gray-600 bg-white sticky">
@@ -32,8 +32,8 @@ const header = {
 					<a href="#/tentang_kami" class="btn-link-menu flex w-full">
 						<li class="ml-auto my-auto">Tentang Kami</li>
 					</a>
-					<a href="#/karir" class="btn-link-menu flex w-full">
-						<li class="ml-auto my-auto">Karir</li>
+					<a href="#/galeri" class="btn-link-menu flex w-full">
+						<li class="ml-auto my-auto">Galeri</li>
 					</a>
 					<a href="#/blog" class="btn-link-menu flex w-full">
 						<li class="ml-auto my-auto">Blog</li>
