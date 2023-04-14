@@ -52,6 +52,19 @@ video::-webkit-media-controls {
   height: 300px;
 }
 
+.masonry-container {
+	column-gap: 15px;
+}
+.masonry-item {
+	display: inline-block;
+	width: 100%;
+}
+.masonry-item img {
+	display:block;
+	width: 100%;
+	border-radius: 20px;
+}
+
 .bg-hero{
 	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(124,122,234,0) 100%)
 }
