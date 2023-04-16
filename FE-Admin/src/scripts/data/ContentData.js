@@ -2,9 +2,9 @@ import APIConfig from '../config/APIConfig';
 
 class ContentData extends APIConfig{
 	// start request dari /api
-	async getHome(){
+	async getContent({page = "home"}){
 		return await this.requestGET({
-			request : "cms/content/home",
+			request : `cms/content/${page}`,
 		})
 	}
 }

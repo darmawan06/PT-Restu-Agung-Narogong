@@ -1,7 +1,7 @@
 const header = {
 	init(){
 		return `
-			<ul class="w-full h-[100px] px-[5%] py-[5px] grid-cols-7 items-stretch justify-center gap-2 bg-black md:grid hidden ">
+			<ul class="w-full h-[70px] px-[5%] grid-cols-7 items-stretch justify-center gap-2 bg-black md:grid hidden ">
 				<li class="flex h-full"><a href="#" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-white ">Beranda</a></li>
 				<li class="flex h-full"><a href="#/proyek" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-white ">Proyek</a></li>
 				<li class="flex h-full"><a href="#/layanan_kami" class="m-auto font-primary font-semibold tracking-widest hover:border-b-2 border-red-600 text-white ">Layanan Kami</a></li>

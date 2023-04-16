@@ -4,7 +4,6 @@ const home = {
   async init() {
     this.contentData = new ContentData();
     this.data = await this.contentData.getContent({page : "home"})
-    console.log(this.data);
     return `
       <section class="w-full md:h-[100vh] h-[450px] bg-black relative mt-[60px] md:mt-0">
         <div class="w-full h-full absolute flex">

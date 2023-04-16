@@ -47,8 +47,6 @@ router.post('/cms/content/home', (req, res, next)=> {
       return undefined;
     }
 
-    console.log(req.files)
-    
     let content = data['content'];
     content["home"] = {
       hero : {
@@ -108,6 +106,60 @@ router.post('/cms/content/home', (req, res, next)=> {
   }
 });
 
+router.post('/cms/content/galery', (req, res, next)=>{
+  try{
+    let checkFileAndUpload = (name, id)=>{
+      let path = "/images/galery/";
+      if(req.files){
+        if(req.files[name]){
+          let data = req.files[name];
+          let nameHash = id + '.' + data.name.split('.')[1];
+          data.mv(__dirname + `/../public${path}` + nameHash )
+          return path + nameHash;          
+        }
+      }
+      return undefined;
+    }
+
+    let content = data['content'];
+    var uniqueID = Date.now().toString(36) + Math.floor(Math.pow(10, 12) + Math.random() * 9*Math.pow(10, 12)).toString(36);
+    content["galery"].push({
+      "id" : uniqueID,
+      "src" : checkFileAndUpload('image', uniqueID)
+    })
+    manageJSON.setDataJSON({dir: './public/data/content.json', data : content});
+    res.send({
+      status : "200",
+      message : `Update Content Berhasil`
+    });
+  }catch(e){
+    console.log(e)
+    res.send({
+      status : "404",
+      message : `Update Content Gagal`
+    });
+  }
+})
+
+router.post('/cms/content/galery/remove',(req, res, next)=>{
+  try{
+    let content = data['content'];
+    const objWithIdIndex = content['galery'].findIndex((obj) => obj.id == req.body.id);
+    if (objWithIdIndex > -1) {
+      content['galery'].splice(objWithIdIndex, 1);
+      manageJSON.setDataJSON({dir: './public/data/content.json', data : content});
+      res.send({
+        status : "200",
+        message : `Success Delete`
+      });   
+    }
+  }catch(e){
+    res.send({
+      status : "404",
+      message : `Failed Delete`
+    });
+  }
+})
 
 // router.all('/login',(req, res, next)=>{
 //   try{

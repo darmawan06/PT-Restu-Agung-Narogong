@@ -17,7 +17,7 @@ const sidebar = {
 							<img alt="icon-left" src="icons/arrow-left.png" class="konten-arrow ml-auto mr-4">
 						</div>
 						<ul class="konten-list hidden">
-							<a href="#/cms_beranda">
+							<a href="#/home">
 								<li class="pl-[37px] flex  py-[10px] bg-red-900">
 									<img alt="icon" src="icons/sidebar-4-1.png" width="20" height="20" class="w-[20px] h-[20px]">
 									<span class="ml-[15px]">Beranda</span>
@@ -43,10 +43,10 @@ const sidebar = {
 								</li>
 							</a>
 
-							<a href="#/superiority">
+							<a href="#/galery">
 								<li class="pl-[37px] flex  py-[10px] bg-red-900">
 									<img alt="icon" src="icons/sidebar-4-4.png" width="20" height="20" class="w-[20px] h-[20px]">
-									<span class="ml-[15px]">Karir</span>
+									<span class="ml-[15px]">Galery</span>
 								</li>
 							</a>
 
