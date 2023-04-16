@@ -4,7 +4,7 @@ import accessImage from '../../../tools/accessImage';
 const beranda = {
 	async init(){
 		this.API = new ContentData();
-		let contentHome = await this.API.getHome();
+		let contentHome = await this.API.getContent({page : "home"});
 		return await `
 			<section class="w-[20%]">
 				${sidebar.init()}
@@ -294,7 +294,6 @@ const beranda = {
 		        request : 'cms/content/home',
 		        data : this.createData()
 		      }).then((e)=>{
-		      	console.log(e);
 		        if(e.status == 200){
 			      $('#submit').attr('value', 'Selesai');
 		          $('#submit').prop('disabled', false);	      

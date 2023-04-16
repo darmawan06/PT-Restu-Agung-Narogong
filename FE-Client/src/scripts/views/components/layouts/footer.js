@@ -30,9 +30,9 @@ const footer = {
 						<div class="w-[20%] h-full absolute bg-gray-100"></div>
 					</div>
 					<ul class="text-white md:text-sm text-[10px] grid grid-cols-1 gap-2 h-[80%] mt-4">
-						<li class="">restu_narogong@yahoo.co.id</li>
-						<li class="">021-823 2272</li>
-						<li class="">Jl. PPLI Kp. Walahir RT.08/04 Desa.Nambo, Kec. Klapanunggal, Kab. Bogor, Kode Pos.167102</li>
+						<li class="">official@restuagungnarogong.com</li>
+						<li class="">0811-1289-877</li>
+						<li class=""> Jl. PPLI Kp. Walahir RT. 08 RW. 04 Desa Nambo Kec. Klapanunggal Kab. Bogor, Jawa Barat. 16710</li>
 						<li>
 							<form class="flex">
 								<input type="text" placeholder="Enter Your Email" class="px-4 py-2 text-black">
