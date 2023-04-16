@@ -23,8 +23,8 @@ const galeri = {
         <p class="my-auto text-sm">Galeri</p>
       </a>
     </section>
-    <section class="w-full px-[8%] py-4">
-      <ul class="masonry-container columns-2 md:columns-3">
+    <section class="w-full lg:px-[8%] md:px-[8%] py-4">
+      <ul class="masonry-container columns-2 md:columns-3 lg:md:columns-4">
         <li class="	masonry-item">
         	<img class="shadow-md" src="/images/klien (1).jpg">
         </li>
@@ -53,7 +53,6 @@ const galeri = {
     </section>
     `;
   },
-  async afterRender() {
-  }
+  async afterRender() {},
 };
 export default galeri;
