@@ -2,7 +2,8 @@ class APIConfig {
 	baseUrl = "";
 
 	constructor(){
-        this.baseUrl = "http://localhost:3000";
+        // this.baseUrl = 'http://localhost:3000'
+        this.baseUrl = 'https://gateway.restuagungnarogong.com'
 		this.baseUrlAPI = `${this.baseUrl}/api`
 	}
 
@@ -16,9 +17,11 @@ class APIConfig {
     }
 
     async requestPOST({request,data}) {
-        $.post(`${this.baseUrlAPI}/${request}`,data)
+      return await fetch(`${this.baseUrlAPI}/${request}`, {method: "POST", body: data}).then((response,status)=>{
+            return (status !== 'error') ? response : status;
+      })
     }
-
+    
     getBaseUrl(){
         return this.baseUrl;
     }

@@ -7,6 +7,12 @@ class ContentData extends APIConfig{
 			request : `cms/content/${page}`,
 		})
 	}
+
+	async getFeedback(){
+		return await this.requestGET({
+			request : `feedback`,
+		})
+	}
 }
 
 export default ContentData;
