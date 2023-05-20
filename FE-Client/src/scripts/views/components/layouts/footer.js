@@ -37,15 +37,15 @@ const footer = {
 					
 					<div class="text-black md:text-sm text-[10px] grid grid-cols-1 gap-2 h-[80%] flex">
 						<div class="flex flex-row my-auto">
-							<img src="icons/gmail-footer.png" class="md:w-[36px] w-[26px] md:h-[36px] h-[26px] mr-4"> <p class="my-auto"> ${this.data.email}</p>
+							<img src="icons/gmail-footer.png" class="bg-red-600 rounded-md p-1 md:w-[36px] w-[26px] md:h-[36px] h-[26px] mr-2"> <p class="my-auto font-secondary"> ${this.data.email}</p>
 						</div>
 
 						<div class="flex flex-row my-auto">
-							<img src="icons/whatsapp-footer.png" class="md:w-[36px] w-[26px] md:h-[36px] h-[26px] mr-4"> <p class="my-auto"> ${this.data.whatsapp}</p>
+							<img src="icons/whatsapp-footer.png" class="bg-green-600 rounded-md p-1 md:w-[36px] w-[26px] md:h-[36px] h-[26px] mr-2"> <p class="my-auto font-secondary"> ${this.data.whatsapp}</p>
 						</div>
 
 						<div class="flex flex-row my-auto">
-							<img src="icons/address-footer.png" class="md:w-[36px] w-[26px] md:h-[36px] h-[26px] mr-4"> <p class="my-auto"> ${this.data.address}</p>
+							<img src="icons/address-footer.png" class="bg-gray-500 rounded-md p-1 md:w-[36px] w-[26px] md:h-[36px] h-[26px] mr-2"> <p class="my-auto font-secondary"> ${this.data.address}</p>
 						</div>
 
 						<div class="hidden">
