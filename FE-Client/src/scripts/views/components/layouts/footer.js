@@ -1,10 +1,10 @@
-import ContentData from '../../../data/ContentData';
+import ContentData from "../../../data/ContentData";
 
 const footer = {
-	async init(){
-		this.contentData = new ContentData();
-    	this.data = await this.contentData.getContent({page : "contact"})
-		return `
+  async init() {
+    this.contentData = new ContentData();
+    this.data = await this.contentData.getContent({ page: "contact" });
+    return `
 		<div class=" bg-white grid md:grid-cols-3 grid-cols-1 py-8 px-[5%] h-auto md:h-[40vh] border-t-2 border-gray-100 2xl:max-w-[1366px] 2xl:m-auto 2xl:h-[300px] 2xl:px-0">
 			<div class="flex flex-col">
 				<img src="images/logo.png" class="w-[30%] m-auto">
@@ -33,17 +33,30 @@ const footer = {
 						<div class="w-full h-full absolute bg-red-600"></div>
 						<div class="w-[20%] h-full absolute bg-black"></div>
 					</div>
-					<ul class="text-black md:text-sm text-[10px] grid grid-cols-1 gap-2 h-[80%] mt-4">
-						<li class="">${this.data.email}</li>
-						<li class="">${this.data.whatsapp}</li>
-						<li class="">${this.data.address}</li>
-						<li class="hidden">
+
+					
+					<div class="text-black md:text-sm text-[10px] grid grid-cols-1 gap-2 h-[80%] flex">
+						<div class="flex flex-row my-auto">
+							<img src="icons/gmail-footer.png" class="md:w-[36px] w-[26px] md:h-[36px] h-[26px] mr-4"> <p class="my-auto"> ${this.data.email}</p>
+						</div>
+
+						<div class="flex flex-row my-auto">
+							<img src="icons/whatsapp-footer.png" class="md:w-[36px] w-[26px] md:h-[36px] h-[26px] mr-4"> <p class="my-auto"> ${this.data.whatsapp}</p>
+						</div>
+
+						<div class="flex flex-row my-auto">
+							<img src="icons/address-footer.png" class="md:w-[36px] w-[26px] md:h-[36px] h-[26px] mr-4"> <p class="my-auto"> ${this.data.address}</p>
+						</div>
+
+						<div class="hidden">
 							<form class="flex">
 								<input type="text" placeholder="Enter Your Email" class="px-4 py-2 text-white bg-black">
 								<input type="submit" value="Subscribe" class="px-4 py-2 bg-red-600 text-white">
 							</form>
-						</li>
-					</ul>
+						</div>
+					</div>
+
+					
 				</div>
 			</div>
 		</div>
@@ -53,11 +66,11 @@ const footer = {
 			</p>
 		</div>
 		`;
-	},
+  },
 
-	afterRender(){
-		return "";
-	}
-}
+  afterRender() {
+    return "";
+  },
+};
 
 export default footer;
